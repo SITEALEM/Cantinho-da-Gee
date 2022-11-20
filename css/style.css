@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    /* Cores do texto */
+
+    --texto-rosa: #F2B4BA;
+    --texto-branco: #FFFFFF;
+
+    /* Cores normais */
+
+    --rosa-escuro: #DB8497;
+
+    /* Primárias */
+
+    --verde: #A2E7D8;
+    --rosa: #F2ACE2;
+    --laranja: #F5C0A7;
+}
+
+/* Geral */
+
+.texto-rosa {
+    color: var(--texto-rosa)
+}
+
+/* Componentes */
+
+.cabecalho-main {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--laranja);
+}
