@@ -26,7 +26,33 @@
 /* Componentes */
 
 .cabecalho-main {
-    width: 100%;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    width: 100vw;
     height: 6rem;
-    background-color: var(--laranja);
+}
+
+.logo-cabecalho {
+    position: relative;
+    top: 0;
+    left: -1314rem;
+    grid-row: 1/3;
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    grid-row: 1/2;
+    background: url("../imagens/Background\ 2.png") no-repeat center/100%;
+}
+
+.nav-paginas {
+}
+
+.bottom {
+    grid-row: 2/2;
+    background: url("../imagens/Background.png") no-repeat center/100%;
 }
