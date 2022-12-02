@@ -29,7 +29,7 @@
                         <a title="Seção sobre nós" href="#sobre-nos">Sobre Nós</a>
                     </li>
                     <li class="paginas texto-rosa">
-                        <a title="Nosso contato" href="#">Contato</a>
+                        <a title="Nosso contato" href="#contato">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -52,19 +52,19 @@
                 <li class="produto active">
                     <figure class="figure-produto">
                         <img src="./imagens/Banner.png" alt="Banner laço 1">
-                        <figcaption><span>Compre</span><br>laços!</figcaption>
+                        <figcaption><span>Diversos</span><br>laços</figcaption>
                     </figure>
                 </li>
                 <li class="produto">
                     <figure class="figure-produto">
                         <img src="./imagens/Banner 2.png" alt="Banner laço 2">
-                        <figcaption><span>Compre</span><br>laços!</figcaption>
+                        <figcaption><span>Feitos</span><br>com amor ❤</figcaption>
                     </figure>
                 </li>
                 <li class="produto">
                     <figure class="figure-produto">
                         <img src="./imagens/Banner 3.png" alt="Banner laço 3">
-                        <figcaption><span>Compre</span><br>laços!</figcaption>
+                        <figcaption><span>Confira</span><br>agora!</figcaption>
                     </figure>
                 </li>
                 <button class="botao-carrossel direita">&#8250;</button>
@@ -195,28 +195,41 @@
         <section id="sobre-nos" class="sobre-nos">
             <div class="sobre-nos-div">
                 <h2>Sobre nós</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi!In elementis mé pra quem é amistosis quis leo.</p>
-                <button class="btn-sobre">Saiba mais</button>
+                <p>Olá, seja muito bem vindo ao nosso cantinho!</p>
+                <p>Sou Geovana Araújo, tenho 23 anos e muitos laços no meu guarda-roupa. Sou professora da fase mais linda e importante, Educação Infantil.
+                Convido você, a conhecer e fazer parte dessa história.</p>
+
+                <p><span id="pontos">...</span><span id="mais">Tudo começou durante a pandemia de 2019, por ser professora da Primeira Infância precisei me adaptar as telas dos celulares para as gravações das aulas remotas e, assim, comecei a preparar meus próprios acessórios para o cabelo, pois precisava chamar a atenção dos pequenos que me assistiam, de maneira colorida e alegre.
+
+                O tempo foi passando, os laços começaram a ganhar vida e admiração de todos. As colegas de trabalho pediram laços para suas gravações, e as mães também mostraram interesse em comprá-los. Dessa forma, nasce o Cantinho da Gee, um lugar lindo, único e cheio de amor. 
+
+                Cada laço feito por nós contém amor, carinho e dedicação. Agradecemos a todos que estiveram no começo desta história, e todos os que continuam escrevendo com a gente!</span></p>
+
+                <button onclick="saibaMais()" class="btnSobre">Saiba mais</button>
+
+                <script src="./scripts/saibamais.js"></script>
             </div>
         </section>
     </main>
-    <footer class="rodape">
-        <p class="endereco">Embu das Artes - SP</p>
-        <div>
-            <ul class="lista-redes">
-                <li class="rede">
-                    <img alt="Logo WhatsApp" src="./imagens/Whatsapp.png">
-                    <p>+55 (11) 93123-1231</p>
-                </li>
-                <li class="rede">
-                    <a title="Link para o Instagram da loja" href="https://www.instagram.com/cantinho_da_gee/" target="_blank">
-                        <img alt="Logo Instagram" src="./imagens/Instagram.png">
-                    </a>
-                    <p>@cantinho_da_gee</p>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <script src="./scripts/carrosel.js"></script>
+    <section id="contato">
+        <footer class="rodape">
+            <p class="endereco">Embu das Artes - SP</p>
+            <div>
+                <ul class="lista-redes">
+                    <li class="rede">
+                        <img alt="Logo WhatsApp" src="./imagens/Whatsapp.png">
+                        <p>+55 (11) 90000-0000</p>
+                    </li>
+                    <li class="rede">
+                        <a title="Link para o Instagram da loja" href="https://www.instagram.com/cantinho_da_gee/" target="_blank">
+                            <img alt="Logo Instagram" src="./imagens/Instagram.png">
+                        </a>
+                        <p>@cantinho_da_gee</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./scripts/carrosel.js"></script>
+    </section>
 </body>
 </html>
